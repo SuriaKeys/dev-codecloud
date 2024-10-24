@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ocode - Online Editor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="start-coding.css">
+</head>
+<body>
+    <header>
+        <img src="assets/images/logo.png"  class="logo-image">
+       
+    </header>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<div class="code html-code">
+    <h1>HTML <span class="fullscreen-icon" onclick="toggleFullscreen('html')">🌐</span></h1>
+    <textarea id="html-code"></textarea>
+</div>
+<div class="code css-code">
+    <h1>CSS <span class="fullscreen-icon" onclick="toggleFullscreen('css')">🌐</span></h1>
+    <textarea id="css-code"></textarea>
+</div>
+<div class="code js-code">
+    <h1>JS <span class="fullscreen-icon" onclick="toggleFullscreen('js')">🌐</span></h1>
+    <textarea id="js-code"></textarea>
+</div>
+
+
+    
+
+    <div class="output">
+        <iframe id="result" title="Result"></iframe>
+    </div>
+
+    <script src="start-coding.js"></script>
+</body>
+</html>
